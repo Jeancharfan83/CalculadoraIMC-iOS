@@ -101,4 +101,8 @@ class ViewController: UIViewController {
         // Establecer la imagen correspondiente
         imgBody.image = UIImage(named: imageName)
     }
+    
+    @IBAction func closeInfo(_ sender: UIStoryboardSegue) {
+        
+    }
 }
